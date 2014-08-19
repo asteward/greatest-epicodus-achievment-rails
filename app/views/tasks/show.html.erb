@@ -1,0 +1,5 @@
+<h1><%= @task.name %></h1>
+
+<p><%= @task.done ? "TASK COMPLETED!" : "Task NOT Completed. Work harder"  %></p>
+<p><a href="/tasks/<%= @task.id %>/edit">Edit</a></p>
+<p><a href="/">Return to task listings</a></p>
