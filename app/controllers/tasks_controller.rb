@@ -35,7 +35,7 @@ class TasksController < ApplicationController
         @tasks = Task.all
         redirect_to('/')
       else
-        render('/tasks/success.html.erb')
+        render('/tasks/update.html.erb')
       end
     else
       render('/tasks/edit.html.erb')
